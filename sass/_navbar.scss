@@ -29,3 +29,9 @@ $navbar-color-font: white;
     }
   }
 }
+
+@media screen and (max-width: 400px) {
+  .navbar{
+    background-color: green;
+  }
+}

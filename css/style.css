@@ -26,6 +26,10 @@
       list-style: none;
       margin-left: 30px; }
 
+@media screen and (max-width: 400px) {
+  .navbar {
+    background-color: green; } }
+
 .intro--section {
   margin: 40px auto;
   color: whitesmoke;
