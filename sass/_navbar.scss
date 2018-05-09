@@ -1,0 +1,31 @@
+/* NAVBAR STYLES */
+
+$navbar-color: rgba(197, 16, 85, 0.438);
+$navbar-color-font: white;
+
+.navbar {
+  background-color: $navbar-color;
+  color: $navbar-color-font;
+  width: 100%;
+  padding: 0 20px;
+  height: 40px;
+  top: 0;
+
+  z-index: 1;
+
+  position: fixed;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+  .navbar--left {
+    display: flex;
+    align-items: center;
+
+    li {
+
+      list-style: none;
+      margin-left: 30px;
+    }
+  }
+}

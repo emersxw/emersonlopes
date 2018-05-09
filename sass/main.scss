@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400');
+$main-font:  'Quicksand', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $main-font;
+  font-weight: 300;
+}
+
+@import 'navbar';
+@import 'intro';
+
