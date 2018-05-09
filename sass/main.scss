@@ -7,8 +7,16 @@ $main-font:  'Quicksand', sans-serif;
   box-sizing: border-box;
   font-family: $main-font;
   font-weight: 300;
+  // font-size: 18px;
+}
+
+hr {
+  margin: 50px auto;
 }
 
 @import 'navbar';
 @import 'intro';
+@import 'about';
+@import 'projects';
+@import 'contact';
 

@@ -1,11 +1,13 @@
 /* NAVBAR STYLES */
 
-$navbar-color: rgba(197, 16, 85, 0.438);
+$navbar-color: rgba(86, 67, 168, 0.438);
 $navbar-color-font: white;
+
 
 .navbar {
   background-color: $navbar-color;
   color: $navbar-color-font;
+  
   width: 100%;
   padding: 0 20px;
   height: 40px;
@@ -18,20 +20,50 @@ $navbar-color-font: white;
   align-items: center;
 
   justify-content: space-between;
+
+  .main--logo {
+    font-size: 30px;
+    font-weight: 100;
+  }
+
   .navbar--left {
     display: flex;
     align-items: center;
 
-    li {
+    a {
+      text-decoration: none;
+      color: white;
+      text-transform: uppercase;
+    }
 
+    li {
       list-style: none;
       margin-left: 30px;
     }
   }
+  .navbar--menu {
+    display: none;
+  }
+
 }
 
-@media screen and (max-width: 400px) {
-  .navbar{
-    background-color: green;
-  }
-}
+// @media screen and (max-width: 900px) {
+//   .navbar{
+//     // background-color: green;
+
+//     .navbar--left {
+//       display: none;
+//       flex-direction: column;
+//       margin-top: 40px;
+//     }
+
+//     .navbar--menu {
+//       display: flex;
+//     }
+
+//     .ew {
+//       background-color: $navbar-color;
+//     }
+    
+//   }
+// }

@@ -1,0 +1,20 @@
+.projects {
+  // background-color: red;
+
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px 0;
+  }
+  
+  img {
+    width: 400px;
+    height: 300px;
+    margin: 5px;
+  }
+}
