@@ -1,6 +1,6 @@
 /* NAVBAR STYLES */
 
-$navbar-color: rgba(86, 67, 168, 0.438);
+$navbar-color: rgb(33, 207, 126);
 $navbar-color-font: white;
 
 
@@ -10,7 +10,7 @@ $navbar-color-font: white;
   
   width: 100%;
   padding: 0 20px;
-  height: 40px;
+  height: 50px;
   top: 0;
 
   z-index: 1;
@@ -21,6 +21,14 @@ $navbar-color-font: white;
 
   justify-content: space-between;
 
+  a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    &:hover {
+      color: black;
+    }
+  }
   .main--logo {
     font-size: 30px;
     font-weight: 100;
@@ -30,11 +38,7 @@ $navbar-color-font: white;
     display: flex;
     align-items: center;
 
-    a {
-      text-decoration: none;
-      color: white;
-      text-transform: uppercase;
-    }
+    
 
     li {
       list-style: none;
@@ -47,23 +51,23 @@ $navbar-color-font: white;
 
 }
 
-// @media screen and (max-width: 900px) {
-//   .navbar{
-//     // background-color: green;
+@media screen and (max-width: 400px) {
+  .navbar{
+    // background-color: green;
 
-//     .navbar--left {
-//       display: none;
-//       flex-direction: column;
-//       margin-top: 40px;
-//     }
+    .navbar--left {
+      display: none;
+      flex-direction: column;
+      margin-top: 40px;
+    }
 
-//     .navbar--menu {
-//       display: flex;
-//     }
+    .navbar--menu {
+      display: flex;
+    }
 
-//     .ew {
-//       background-color: $navbar-color;
-//     }
+    .navbar--left__before {
+      background-color: $navbar-color;
+    }
     
-//   }
-// }
+  }
+}
