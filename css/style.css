@@ -28,7 +28,7 @@ hr {
     text-transform: uppercase; }
     .navbar a:hover {
       color: black; }
-  .navbar .main--logo {
+  .navbar span {
     font-size: 30px;
     font-weight: 100; }
   .navbar .navbar--left {
@@ -53,7 +53,7 @@ hr {
 .intro--section {
   margin: 40px auto 50px auto;
   color: whitesmoke;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url("https://images.unsplash.com/photo-1522199794616-8a62b541f762?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=71b5877630deb9ab5996f91cc61b43f7&auto=format&fit=crop&w=1052&q=80");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.521)), url("../imgs/bg.png");
   background-size: cover;
   height: 95vh;
   background-position: top;
@@ -102,6 +102,7 @@ hr {
   .about li {
     list-style: none;
     width: 100px;
+    margin-bottom: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -127,6 +128,18 @@ hr {
   width: 400px;
   height: 300px;
   margin: 5px; }
+
+@media screen and (max-width: 400px) {
+  .projects img {
+    width: 350px;
+    height: 250px;
+    margin: 5px; } }
+
+@media screen and (max-width: 300px) {
+  .projects img {
+    width: 250px;
+    height: 150px;
+    margin: 5px; } }
 
 .contact {
   margin: 50px auto;

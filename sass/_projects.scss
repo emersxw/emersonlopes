@@ -19,3 +19,24 @@
     margin: 5px;
   }
 }
+
+
+@media screen and (max-width: 400px) {
+  .projects {
+    img {
+      width: 350px;
+      height: 250px;
+      margin: 5px;
+    }
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .projects {
+    img {
+      width: 250px;
+      height: 150px;
+      margin: 5px;
+    }
+  }
+}
