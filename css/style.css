@@ -69,6 +69,8 @@ hr {
   .intro--section__name {
     display: flex;
     justify-content: center; }
+  .intro--section__content {
+    margin: 0 15px; }
   .intro--section .icons--contact ul {
     margin-top: 10px;
     display: flex;
@@ -112,6 +114,10 @@ hr {
     .about li i {
       font-size: 50px;
       margin-top: 5px; }
+
+@media screen and (max-width: 630px) {
+  .about {
+    margin: 50px 15px; } }
 
 .projects h2 {
   text-align: center;
@@ -165,6 +171,10 @@ hr {
     font-size: 30px; }
     .contact .icons--contact li:hover {
       color: black; }
+
+@media screen and (max-width: 630px) {
+  .contact {
+    margin: 50px 15px; } }
 
 footer {
   background-color: #21cf7e;

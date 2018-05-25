@@ -6,33 +6,31 @@
     rgba(0, 0, 0, 0.719), 
     rgba(0, 0, 0, 0.521)),
 
-    url('../imgs/bg.png');
-    background-size: cover;
-    height: 95vh;
-    background-position: top;
-    position: relative;
+  url('../imgs/bg.png');
+  background-size: cover;
+  height: 95vh;
+  background-position: top;
+  position: relative;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    h1 {
-      text-transform: uppercase;
-      margin-bottom: 10px;
-    }
+  h1 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
 
-    p {
-      color: $navbar-color;
-    }
+  p {
+    color: $navbar-color;
+  }
 
   &__name {
     display: flex;
     justify-content: center;
   }
-  &__about{
-    // display: flex;
-    // justify-content: center;
-
+  &__content{
+    margin: 0 15px;
   }
 
   .icons--contact {
