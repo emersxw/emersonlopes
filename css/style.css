@@ -187,3 +187,30 @@ footer {
     text-decoration: none; }
   footer a:hover {
     color: black; }
+
+.blog {
+  max-width: 700px;
+  margin: 50px auto;
+  text-align: center; }
+  .blog .all-posts {
+    max-width: 600px;
+    width: 95%;
+    margin: auto; }
+  .blog .single-post {
+    border: 1px solid #080a09;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: white;
+    height: auto; }
+    .blog .single-post a:link,
+    .blog .single-post a:visited,
+    .blog .single-post a:active {
+      color: #ec0909;
+      text-decoration: none; }
+    .blog .single-post:nth-child(1) {
+      margin-top: 70px; }
+    .blog .single-post .title {
+      margin-bottom: 10px;
+      color: #006eff;
+      background-color: #f0f0f0; }

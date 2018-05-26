@@ -1,0 +1,40 @@
+.blog {
+  // background-color: rgba(212, 71, 189, 0.658);
+  max-width: 700px;
+  margin: 50px auto;
+  text-align: center;
+
+  .all-posts {
+    // background-color: rgb(82, 176, 192);
+    max-width: 600px;
+    width: 95%;
+    margin: auto;
+  }
+
+  .single-post {
+    border: 1px solid rgb(8, 10, 9);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+
+    a:link,
+    a:visited,
+    a:active {
+      color: rgb(236, 9, 9);
+      text-decoration: none;
+    }
+
+    &:nth-child(1) {
+      margin-top: 70px;
+    }
+
+    .title {
+      margin-bottom: 10px;
+      color: rgb(0, 110, 255);
+      background-color: rgb(240, 240, 240);
+    }
+  }
+}
+
