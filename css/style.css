@@ -70,7 +70,7 @@ hr {
   color: whitesmoke;
   background-image: linear-gradient(rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.521)), url("../imgs/bg.png");
   background-size: cover;
-  height: 95vh;
+  height: 100vh;
   background-position: top;
   position: relative;
   display: flex;
