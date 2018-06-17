@@ -5,11 +5,17 @@ $navbar-color-font: white;
 
 
 .navbar {
+
+  #icon, #menu {
+    margin: 5px 10px;
+  }
+
+  
   background-color: $navbar-color;
   color: $navbar-color-font;
   
   width: 100%;
-  padding: 0 20px;
+  // padding: 0 20px;
   height: 50px;
   top: 0;
 
@@ -49,24 +55,46 @@ $navbar-color-font: white;
     display: none;
   }
 
+  .navbar--left__before {
+    margin-right: 10px;
+  }
+
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 440px) {
+
+  #icon {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+
+  .navbar--left a {
+    margin-bottom: 10px;
+  }
+
   .navbar{
-    // background-color: green;
+    display: flex;
+    flex-direction: column;
 
     .navbar--left {
       display: none;
       flex-direction: column;
-      margin-top: 40px;
     }
 
     .navbar--menu {
-      display: flex;
+      display: inline-block;
+      top: 0;
+      right: 5px;
+      position: absolute;
     }
 
     .navbar--left__before {
       background-color: $navbar-color;
+      width: 103%;
+      margin-top: 35px;
+      // padding: 0 10px 10px 0;
+
     }
     
   }
