@@ -206,9 +206,9 @@ footer {
 .blog {
   max-width: 700px;
   margin: 50px auto;
-  text-align: center; }
+  text-align: justify; }
   .blog .all-posts {
-    max-width: 600px;
+    max-width: 1000px;
     width: 95%;
     margin: auto; }
   .blog .single-post {
@@ -218,14 +218,57 @@ footer {
     margin: 20px 0;
     background-color: white;
     height: auto; }
+    .blog .single-post p {
+      letter-spacing: .5px; }
+    .blog .single-post h3 {
+      text-align: center; }
+    .blog .single-post h4 {
+      text-align: left;
+      margin-bottom: 10px;
+      font-size: 12px; }
+    .blog .single-post .tags {
+      margin: 10px 0 0 0;
+      text-align: right;
+      font-size: 12px; }
     .blog .single-post a:link,
     .blog .single-post a:visited,
     .blog .single-post a:active {
-      color: #ec0909;
+      color: #5378f1;
       text-decoration: none; }
     .blog .single-post:nth-child(1) {
       margin-top: 70px; }
     .blog .single-post .title {
       margin-bottom: 10px;
-      color: #006eff;
-      background-color: #f0f0f0; }
+      color: white;
+      background-color: black;
+      padding: 5px;
+      border-radius: 8px; }
+
+.post-main {
+  max-width: 900px;
+  margin: 65px auto 20px;
+  padding: 5px 10px;
+  border-radius: 10px; }
+  .post-main__title {
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center; }
+  .post-main__date {
+    font-size: 12px;
+    text-align: left;
+    margin: 10px 0 0; }
+
+.post-content {
+  margin: 20px 0; }
+  .post-content p {
+    margin: 15px 0;
+    letter-spacing: .5px; }
+
+.post code {
+  background-color: #ececec;
+  color: black;
+  font-family: monospace;
+  font-size: 16px;
+  margin: 0 5px; }
