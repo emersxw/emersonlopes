@@ -218,6 +218,8 @@ footer {
     margin: 20px 0;
     background-color: white;
     height: auto; }
+    .blog .single-post h4 {
+      text-align: left; }
     .blog .single-post a:link,
     .blog .single-post a:visited,
     .blog .single-post a:active {
@@ -229,3 +231,6 @@ footer {
       margin-bottom: 10px;
       color: #006eff;
       background-color: #f0f0f0; }
+
+.post-main__h1 {
+  color: red; }
