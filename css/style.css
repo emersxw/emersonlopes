@@ -4,9 +4,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Quicksand", sans-serif;
-  font-weight: 300;
-  scroll-behavior: smooth;
-}
+  font-weight: 500;
+  scroll-behavior: smooth; }
 
 hr {
   margin: 50px auto; }
@@ -23,7 +22,8 @@ hr {
   display: flex;
   align-items: center;
   justify-content: space-between; }
-  .navbar #icon, .navbar #menu {
+  .navbar #icon,
+  .navbar #menu {
     margin: 5px 10px; }
   .navbar a {
     text-decoration: none;
