@@ -18,5 +18,8 @@
   "homepage": "https://github.com/lupuselit/lupuselit.github.io#readme",
   "devDependencies": {
     "node-sass": "^4.9.0"
+  },
+  "dependencies": {
+    "eslint": "^5.8.0"
   }
 }
