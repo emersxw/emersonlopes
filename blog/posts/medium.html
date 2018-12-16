@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+  <!-- <script src="main.js"></script> -->
+</head>
+<body>
+  <h1>hello</h1>
+
+  <div class="blog__slider"></div>
+
+  <script>
+  
+  fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@lupuselit')
+   .then((res) => res.json())
+   .then((data) => {
+
+      // console.log(data);
+      
+       // Fillter the array
+       const res = data.items //This is an array with the content. No feed, no info about author etc..
+       const posts = res.filter(item => item.categories.length > 0) // That's the main trick* !
+       
+       function toText(node) {
+         let tag = document.createElement('div')
+         tag.innerHTML = node
+         node = tag.innerText
+         return node
+      }
+      
+       function shortenText(text,startingPoint ,maxLength) {
+       return text.length > maxLength?
+          text.slice(startingPoint, maxLength):
+          text
+      }
+
+      console.log(posts);
+      
+      
+      let output = '';
+      posts.forEach((item) => {
+         output += `
+         <li class="blog__post">
+            <a href="${item.link}">
+               <img src="${item.thumbnail}" class="blog__topImg"></img>
+               <div class="blog__content">
+                  <div class="blog_preview">
+                     <h2 class="blog__title">${shortenText(item.title, 0, 30)+ '...'}</h2>
+                     <p class="blog__intro">${'...' + shortenText(toText(item.content),60, 300)+ '...'}</p>
+                  </div>
+                  <hr>
+                  <div class="blog__info">
+                     <span class="blog__author">${item.author}</span>
+                     <span class="blog__date">${shortenText(item.pubDate,0 ,10)}</span>
+                  </div>
+               </div>
+            <a/>
+         </li>`
+      })
+      document.querySelector('.blog__slider').innerHTML = output
+    })
+    
+  </script>
+</body>
+</html>

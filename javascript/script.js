@@ -11,3 +11,14 @@ toogleMenu.onclick = () => {
     navbarLeft.style.display = 'flex';
   }
 };
+
+
+fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@lupuselit')
+   .then((res) => res.json())
+   .then((data) => {
+      //Do things
+      console.log(data);
+      
+    }
+   )
+
