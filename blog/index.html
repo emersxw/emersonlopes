@@ -62,8 +62,6 @@
    .then((res) => res.json())
    .then((data) => {
 
-      // console.log(data);
-      
        // Fillter the array
        const res = data.items //This is an array with the content. No feed, no info about author etc..
        const posts = res.filter(item => item.categories.length > 0) // That's the main trick* !
