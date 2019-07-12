@@ -21,7 +21,7 @@ const LoaderContainer = styled.div`
 `;
 const LogoWrapper = styled.div`
   width: max-content;
-  max-width: 100px;
+  max-width: 500px;
   transition: ${theme.transition};
   opacity: ${props => (props.isMounted ? 1 : 0)};
   svg {

@@ -2,4 +2,6 @@
 title: 'Get In Touch'
 ---
 
-Although I'm not currently looking for freelance opportunities, my inbox is always open. Whether for a potential project or just to say hi, I'll try my best to answer your email!
+Whenever you are a budding entrepreneur or a large established organization, I can provide a clear understanding of your need, technical excellence, ongoing Support, fast troubleshooting service.
+
+My experience and knowledge can dramatically speed up the development of your project and idea. Let's make our fantastic software together.

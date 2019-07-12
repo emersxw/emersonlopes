@@ -13,6 +13,18 @@ const Heading = styled.h3`
   font-size: ${fontSizes.h3};
   ${media.tablet`font-size: 24px;`};
 
+  span {
+    counter-increment: section;
+    margin-right: 10px;
+    font-family: ${fonts.SFMono};
+    font-weight: normal;
+    color: ${colors.green};
+    font-size: ${fontSizes.xlarge};
+    position: relative;
+    bottom: 4px;
+    ${media.tablet`font-size: ${fontSizes.large};`};
+  }
+
   &:before {
     counter-increment: section;
     content: '0' counter(section) '.';

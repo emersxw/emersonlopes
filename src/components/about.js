@@ -9,6 +9,7 @@ const { colors, fontSizes, fonts } = theme;
 
 const AboutContainer = styled(Section)`
   position: relative;
+  /* background: red; */
 `;
 const FlexContainer = styled.div`
   ${mixins.flexBetween};
@@ -65,7 +66,7 @@ const AvatarContainer = styled.a`
   width: 100%;
   position: relative;
   border-radius: ${theme.borderRadius};
-  background-color: ${colors.green};
+  background-color: ${colors.lpPurpleLight};
   margin-left: -20px;
   &:hover,
   &:focus {
@@ -94,14 +95,14 @@ const AvatarContainer = styled.a`
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: ${colors.navy};
+    /* background-color: ${colors.navy}; */
     mix-blend-mode: screen;
   }
   &:after {
     border: 2px solid ${colors.green};
-    top: 20px;
+    top: 30px;
     left: 20px;
-    z-index: -1;
+    z-index: -3;
   }
 `;
 
@@ -113,7 +114,10 @@ const About = ({ data }) => {
 
   return (
     <AboutContainer id="about" ref={revealContainer}>
-      <Heading>{title}</Heading>
+      <Heading>
+        <span>0001.</span>
+        {title}
+      </Heading>
       <FlexContainer>
         <ContentContainer>
           <div dangerouslySetInnerHTML={{ __html: html }} />

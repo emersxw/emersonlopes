@@ -33,15 +33,21 @@ const Name = styled.h2`
   ${media.tablet`font-size: 60px;`};
   ${media.phablet`font-size: 50px;`};
   ${media.phone`font-size: 40px;`};
+
+  font-family: sans-serif;
+  font-weight: 100;
 `;
 const Subtitle = styled.h3`
-  font-size: 80px;
+  font-size: 60px;
   line-height: 1.1;
-  color: ${colors.slate};
+  color: ${colors.lpPurple};
   ${media.desktop`font-size: 70px;`};
   ${media.tablet`font-size: 60px;`};
   ${media.phablet`font-size: 50px;`};
   ${media.phone`font-size: 40px;`};
+
+  font-family: sans-serif;
+  font-weight: 100;
 `;
 const Blurb = styled.div`
   margin-top: 25px;
@@ -76,7 +82,7 @@ const Hero = ({ data }) => {
   );
   const five = () => (
     <div style={{ transitionDelay: '500ms' }}>
-      <EmailLink href={`mailto:${email}`}>Get In Touch</EmailLink>
+      <EmailLink href={`mailto:${email}`}>Contact Me</EmailLink>
     </div>
   );
 

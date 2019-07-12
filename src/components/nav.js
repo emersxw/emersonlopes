@@ -42,12 +42,15 @@ const Navbar = styled.nav`
 `;
 const Logo = styled.div`
   ${mixins.flexCenter};
+  /* width: 400px; */
 `;
 const LogoLink = styled.a`
   display: block;
   color: ${colors.green};
-  width: 42px;
-  height: 42px;
+  margin-top: 80px;
+  margin-left: -50px;
+  width: 180px;
+  height: 180px;
   &:hover,
   &:focus {
     svg {
@@ -136,17 +139,26 @@ const NavList = styled.ol`
     ${mixins.flexBetween};
   }
 `;
+
 const NavListItem = styled.li`
   margin: 0 10px;
   position: relative;
   font-size: ${fontSizes.smallish};
-  counter-increment: item 1;
-  &:before {
-    content: '0' counter(item) '.';
+  counter-increment: item 2;
+
+  span {
     text-align: right;
     color: ${colors.green};
     font-size: ${fontSizes.xsmall};
   }
+
+  /* &:before {
+    content: '0' counter(item) '.';
+    text-align: right;
+    color: ${colors.green};
+    font-size: ${fontSizes.xsmall};
+  } */
+
 `;
 const NavLink = styled(AnchorLink)`
   padding: 12px 10px;
@@ -225,6 +237,17 @@ class Nav extends Component {
     }
   };
 
+  toBinary = i => {
+    let number = ((i + 1) >>> 0).toString(2);
+
+    var my_string = '' + number;
+    while (my_string.length < 4) {
+      my_string = '0' + my_string;
+    }
+
+    return my_string;
+  };
+
   render() {
     const { isMounted, menuOpen, scrollDirection } = this.state;
 
@@ -266,6 +289,7 @@ class Nav extends Component {
                   navLinks.map(({ url, name }, i) => (
                     <CSSTransition key={i} classNames="fadedown" timeout={3000}>
                       <NavListItem key={i} style={{ transitionDelay: `${i * 100}ms` }}>
+                        <span>{this.toBinary(i)}.</span>
                         <NavLink href={url}>{name}</NavLink>
                       </NavListItem>
                     </CSSTransition>
@@ -273,7 +297,7 @@ class Nav extends Component {
               </TransitionGroup>
             </NavList>
 
-            <TransitionGroup>
+            {/* <TransitionGroup>
               {isMounted && (
                 <CSSTransition classNames="fadedown" timeout={3000}>
                   <div style={{ transitionDelay: `600ms` }}>
@@ -286,7 +310,7 @@ class Nav extends Component {
                   </div>
                 </CSSTransition>
               )}
-            </TransitionGroup>
+            </TransitionGroup> */}
           </NavLinks>
         </Navbar>
 

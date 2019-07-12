@@ -1,19 +1,22 @@
 ---
 title: 'About Me'
-avatar: './me.jpg'
+avatar: './me2.jpg'
 skills:
   - JavaScript (ES6+)
-  - HTML & (S)CSS
+  - Python
+  # - C & C++
+  - HTML5
+  - CSS3
+  - SCSS (SASS)
   - React
-  - Vue
   - Node.js
   - Express
-  - GraphQL
-  - NativeScript
 ---
 
-Hello! I'm Brittany, a software engineer based in Boston, MA who enjoys building things that live on the internet. I develop exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces with efficient and modern backends.
+Hello! I'm Emerson Lopes, a software developer based in Montes Claros, Brazil who quite enjoys building things that live on the internet.
 
-Shortly after graduating from [Northeastern University](https://www.ccis.northeastern.edu/), I joined the engineering team at [Upstatement](https://www.upstatement.com/) where I work on a wide variety of interesting and meaningful projects on a daily basis.
+I am an independent top rated freelancer on [Upwork](https://www.upwork.com/fl/emersonlopes4), specialized in designing and implementing high-quality web applications. I aim to provide a flawless freelance experience, combining excellent understanding, great communication, and speedy delivery.
+
+I'm currently studying Information Systems at the [State University of Montes Claros](https://www.unimontes.br/).
 
 Here's a few technologies I've been working with recently:
