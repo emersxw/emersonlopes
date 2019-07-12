@@ -203,7 +203,9 @@ const Featured = ({ data }) => {
 
   return (
     <FeaturedContainer id="projects">
-      <Heading ref={revealTitle}>Some projects I worked on</Heading>
+      <Heading ref={revealTitle}>
+        <span>0010.</span>Some projects I worked on
+      </Heading>
 
       <div>
         {featuredProjects &&

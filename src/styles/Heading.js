@@ -25,7 +25,7 @@ const Heading = styled.h3`
     ${media.tablet`font-size: ${fontSizes.large};`};
   }
 
-  &:before {
+  /* &:before {
     counter-increment: section;
     content: '0' counter(section) '.';
     margin-right: 10px;
@@ -36,7 +36,7 @@ const Heading = styled.h3`
     position: relative;
     bottom: 4px;
     ${media.tablet`font-size: ${fontSizes.large};`};
-  }
+  } */
 
   &:after {
     content: '';

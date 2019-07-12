@@ -238,11 +238,11 @@ class Nav extends Component {
   };
 
   toBinary = i => {
-    let number = ((i + 1) >>> 0).toString(2);
+    const number = ((i + 1) >>> 0).toString(2);
 
-    var my_string = '' + number;
+    let my_string = `${number}`;
     while (my_string.length < 4) {
-      my_string = '0' + my_string;
+      my_string = `0${my_string}`;
     }
 
     return my_string;
