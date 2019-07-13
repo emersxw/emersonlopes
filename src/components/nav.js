@@ -47,10 +47,14 @@ const Logo = styled.div`
 const LogoLink = styled.a`
   display: block;
   color: ${colors.green};
-  margin-top: 80px;
+  /* margin-top: 80px;
   margin-left: -50px;
   width: 180px;
-  height: 180px;
+  height: 180px; */
+  width: 100px;
+  height: 100px;
+  margin-top: 0;
+  margin-left: -25px;
   &:hover,
   &:focus {
     svg {

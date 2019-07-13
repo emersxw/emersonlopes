@@ -5,6 +5,7 @@ import { email } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section } from '@styles';
 const { colors, fontSizes, fonts } = theme;
+import { IconLogo } from '@components/icons';
 
 const HeroContainer = styled(Section)`
   ${mixins.flexCenter};
@@ -15,6 +16,10 @@ const HeroContainer = styled(Section)`
   div {
     width: 100%;
   }
+  /* :hover {
+    cursor: url(https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/124/rocket_1f680.png),
+      auto;
+  } */
 `;
 const Hi = styled.h1`
   color: ${colors.green};
@@ -86,7 +91,13 @@ const Hero = ({ data }) => {
     </div>
   );
 
-  const items = [one, two, three, four, five];
+  const six = () => (
+    <div style={{ transitionDelay: '800ms', maxWidth: '700px', margin: '0 auto -230px auto ' }}>
+      <IconLogo />
+    </div>
+  );
+
+  const items = [one, two, three, four, five, six];
 
   return (
     <HeroContainer>

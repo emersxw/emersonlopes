@@ -46,17 +46,17 @@ const Layout = ({ children }) => {
     forks: null,
   });
 
-  useEffect(() => {
-    fetch('https://api.github.com/repos/bchiang7/v4')
-      .then(response => response.json())
-      .then(json => {
-        const { stargazers_count, forks_count } = json;
-        setGithubInfo({
-          stars: stargazers_count,
-          forks: forks_count,
-        });
-      });
-  }, []);
+  // useEffect(() => {
+  //   // fetch('https://api.github.com/repos/bchiang7/v4')
+  //   //   .then(response => response.json())
+  //   //   .then(json => {
+  //   //     const { stargazers_count, forks_count } = json;
+  //   //     setGithubInfo({
+  //   //       stars: stargazers_count,
+  //   //       forks: forks_count,
+  //   //     });
+  //   //   });
+  // }, []);
 
   return (
     <StaticQuery
