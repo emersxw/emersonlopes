@@ -102,14 +102,7 @@ const Footer = ({ githubInfo }) => (
         href="https://github.com/lupuselit"
         target="_blank"
         rel="nofollow noopener noreferrer">
-        <div>Emerson Lopes -</div>
-      </GithubLink>
-      <div style={{ margin: '5px', display: 'inline-block' }}>Inspired by</div>
-      <GithubLink
-        href="https://github.com/bchiang7/v4"
-        target="_blank"
-        rel="nofollow noopener noreferrer">
-        <div>Brittany Chiang</div>
+        <div>emerson lopes - 11111100011 - abstract elit</div>
       </GithubLink>
     </Copy>
   </FooterContainer>

@@ -12,6 +12,8 @@ import Menu from './menu';
 import Nav from './nav';
 import Projects from './projects';
 import Social from './social';
+import Blog from './blog';
+import Youtube from './youtube';
 
 export {
   About,
@@ -28,4 +30,6 @@ export {
   Nav,
   Projects,
   Social,
+  Blog,
+  Youtube
 };

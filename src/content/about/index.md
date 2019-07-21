@@ -19,4 +19,6 @@ I am an independent top rated freelancer on [Upwork](https://www.upwork.com/fl/e
 
 I'm currently studying Information Systems at the [State University of Montes Claros](https://www.unimontes.br/).
 
+Visit my [Github profile](https://www.github.com/lupuselit) for code samples and some open source projects.
+
 Here's a few technologies I've been working with recently:

@@ -92,7 +92,7 @@ const Hero = ({ data }) => {
   );
 
   const six = () => (
-    <div style={{ transitionDelay: '800ms', maxWidth: '700px', margin: '0 auto -230px auto ' }}>
+    <div style={{ transitionDelay: '800ms', maxWidth: '300px', margin: '0 auto -230px auto ' }}>
       <IconLogo />
     </div>
   );

@@ -41,13 +41,21 @@ module.exports = {
       name: 'About',
       url: '#about',
     },
+    // {
+    //   name: 'Experience',
+    //   url: '#jobs',
+    // },
     {
-      name: 'Experience',
-      url: '#jobs',
+      name: 'Projects',
+      url: '#projects',
     },
     {
-      name: 'Work',
-      url: '#projects',
+      name: 'Blog',
+      url: '#blog',
+    },
+    {
+      name: 'Youtube',
+      url: '#youtube',
     },
     {
       name: 'Contact',
@@ -60,7 +68,7 @@ module.exports = {
   ],
 
   twitterHandle: '@lupuselit',
-  googleAnalyticsID: 'UA-45666519-2',
+  googleAnalyticsID: 'UA-119143752-1',
 
   navHeight: 100,
 
