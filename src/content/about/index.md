@@ -15,6 +15,8 @@ skills:
 
 Hello! I'm Emerson Lopes, a software developer based in Montes Claros, Brazil who quite enjoys building things that live on the internet.
 
+I really like to learn new things. I know how to play the guitar 🎸 & I speak four languages: Portuguese 🇧🇷 French 🇫🇷 English 🇺🇸 and Spanish 🇪🇸. I love reading books and exploring. Also, Rick and Morty is my favorite TV show.
+
 I am an independent top rated freelancer on [Upwork](https://www.upwork.com/fl/emersonlopes4), specialized in designing and implementing high-quality web applications. I aim to provide a flawless freelance experience, combining excellent understanding, great communication, and speedy delivery.
 
 I'm currently studying Information Systems at the [State University of Montes Claros](https://www.unimontes.br/).
