@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://lupuselit.me/sitemap.xml
-Host: https://lupuselit.me
+Sitemap: https://emersonlopes.me/sitemap.xml
+Host: https://emersonlopes.me
