@@ -209,7 +209,7 @@ const Jobs = ({ data }) => {
           {data &&
             data.map(({ node }, i) => {
               const { frontmatter, html } = node;
-              const { title, url, company, range } = frontmatter;
+              const { title, url, company, range, location, feedback, client } = frontmatter;
               return (
                 <TabContent
                   key={i}
@@ -231,7 +231,18 @@ const Jobs = ({ data }) => {
                   <JobDetails>
                     <span>{range}</span>
                   </JobDetails>
+                  <strong>
+                    <p style={{ fontSize: 14, margin: '-20px 0 25px 0' }}>{location}</p>
+                  </strong>
                   <div dangerouslySetInnerHTML={{ __html: html }} />
+
+                  {client && (
+                    <div style={{ marginTop: 25 }}>
+                      <h5>Client's Feedback</h5>
+                      <p>"{feedback}"</p>
+                      <p>- {client}</p>
+                    </div>
+                  )}
                 </TabContent>
               );
             })}

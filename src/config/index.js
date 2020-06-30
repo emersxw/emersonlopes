@@ -3,20 +3,20 @@ module.exports = {
   siteDescription:
     'Emerson Lopes is a developer / coder / data  based in Montes Claros, MG, Brazil specializing in building (and occasionally designing) exceptional, high-quality websites and applications.',
   siteKeywords:
-    'Emerson, Lopes, lupuselit, software engineer, front-end engineer, web developer, javascript, unimontes',
-  siteUrl: 'https://lupuselit.me',
+    'Emerson, Lopes, emersonlopes, software engineer, front-end engineer, web developer, javascript, unimontes',
+  siteUrl: 'https://emersonlopes.me',
   siteLanguage: 'en_US',
 
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
 
   name: 'Emerson Lopes',
   location: 'Montes Claros, MG, Brazil',
-  email: 'lupuselit@gmail.com',
-  github: 'https://github.com/lupuselit/',
+  email: 'emersondferreiralopes@gmail.com',
+  github: 'https://github.com/emersondflopes/',
   socialMedia: [
     {
       name: 'Github',
-      url: 'https://github.com/lupuselit/',
+      url: 'https://github.com/emersondflopes/',
     },
     {
       name: 'Linkedin',
@@ -28,11 +28,11 @@ module.exports = {
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/lupuselit/',
+      url: 'https://www.instagram.com/emersondflopes/',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/lupuselit',
+      url: 'https://twitter.com/emersondflopes',
     },
   ],
 
@@ -67,7 +67,7 @@ module.exports = {
     // },
   ],
 
-  twitterHandle: '@lupuselit',
+  twitterHandle: '@emersondflopes',
   googleAnalyticsID: 'UA-119143752-1',
 
   navHeight: 100,
