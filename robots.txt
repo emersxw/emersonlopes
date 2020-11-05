@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://emersonlopes.me/sitemap.xml
+Host: https://emersonlopes.me
