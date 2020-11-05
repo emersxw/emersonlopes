@@ -5,7 +5,7 @@ ghpages.publish(
   'public',
   {
     branch: 'master',
-    repo: 'https://github.com/lupuselit/lupuselit.github.io.git',
+    repo: 'https://github.com/emersonlopxs/emersonlopes.git',
   },
   () => {
     console.log('Deploy Complete!');

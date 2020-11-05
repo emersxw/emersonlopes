@@ -46,14 +46,14 @@ const Blog = ({ data }) => (
     <p>
       I believe that the best way to learn how to build things in actually putting that in practice
       or teaching other people. <br />I have a{' '}
-      <a style={{ color: 'red' }} href="https://medium.com/@lupuselit" target="_blank">
+      <a style={{ color: 'red' }} href="https://medium.com/@emersonlopxs" target="_blank">
         medium blog
       </a>
       , once in a while I post some stuff that I find interesting, here there are some entries.
     </p>
 
     <BlogContent
-      href="https://medium.com/@lupuselit/this-in-javascript-88050c02a9dd"
+      href="https://medium.com/@emersonlopxs/this-in-javascript-88050c02a9dd"
       target="_blank">
       <BlogTitle>“This” in Javascript</BlogTitle>
       <img src="https://miro.medium.com/fit/c/700/210/0*wvzdZftQCGQfF_Yx" alt="" srcSet="" />
@@ -69,7 +69,7 @@ const Blog = ({ data }) => (
     </BlogContent>
 
     <BlogContent
-      href="https://medium.com/@lupuselit/stop-being-obsessed-with-money-5de299245cf3"
+      href="https://medium.com/@emersonlopxs/stop-being-obsessed-with-money-5de299245cf3"
       target="_blank">
       <BlogTitle>Stop being obsessed with money</BlogTitle>
       <img src="https://miro.medium.com/fit/c/1400/420/0*zKjBwkwquanEKeHn" alt="" srcSet="" />
@@ -81,7 +81,7 @@ const Blog = ({ data }) => (
     </BlogContent>
 
     <BlogContent
-      href="https://medium.com/@lupuselit/overcoming-the-tutorial-purgatory-e7b374e4c454"
+      href="https://medium.com/@emersonlopxs/overcoming-the-tutorial-purgatory-e7b374e4c454"
       target="_blank">
       <BlogTitle>Overcoming the “Tutorial Purgatory”</BlogTitle>
       <img src="https://miro.medium.com/fit/c/1400/420/0*qZGw8vjeKfbPE8wW" alt="" srcSet="" />
@@ -93,7 +93,7 @@ const Blog = ({ data }) => (
     </BlogContent>
 
     <BlogContent
-      href="https://medium.com/@lupuselit/2018-as-a-22-year-old-self-taught-junior-software-engineer-45956ce2e74f"
+      href="https://medium.com/@emersonlopxs/2018-as-a-22-year-old-self-taught-junior-software-engineer-45956ce2e74f"
       target="_blank">
       <BlogTitle>2018 as a 22-year-old Self-Taught Junior Software Engineer</BlogTitle>
       <img src="https://miro.medium.com/fit/c/700/210/0*ZdKf4j2xhaahss_L" alt="" srcSet="" />

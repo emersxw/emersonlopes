@@ -99,7 +99,7 @@ const Footer = ({ githubInfo }) => (
     </SocialContainer>
     <Copy>
       <GithubLink
-        href="https://github.com/lupuselit"
+        href="https://github.com/emersonlopxs"
         target="_blank"
         rel="nofollow noopener noreferrer">
         <div>emerson lopes - 11111100011 - abstract elit</div>

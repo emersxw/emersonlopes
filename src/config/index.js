@@ -11,28 +11,28 @@ module.exports = {
 
   name: 'Emerson Lopes',
   location: 'Montes Claros, MG, Brazil',
-  email: 'emersondferreiralopes@gmail.com',
-  github: 'https://github.com/emersondflopes/',
+  email: 'emersonlopxs@gmail.com',
+  github: 'https://github.com/emersonlopxs/',
   socialMedia: [
     {
       name: 'Github',
-      url: 'https://github.com/emersondflopes/',
+      url: 'https://github.com/emersonlopxs/',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/lupuselit/',
+      url: 'https://www.linkedin.com/in/emersonlopxs/',
     },
     {
       name: 'Codepen',
-      url: 'https://codepen.io/lupuselit/',
+      url: 'https://codepen.io/emersonlopxs/',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/emersondflopes/',
+      url: 'https://www.instagram.com/emersonlopxs/',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/emersondflopes',
+      url: 'https://twitter.com/emersonlopxs',
     },
   ],
 
@@ -67,7 +67,7 @@ module.exports = {
     // },
   ],
 
-  twitterHandle: '@emersondflopes',
+  twitterHandle: '@emersonlopxs',
   googleAnalyticsID: 'UA-119143752-1',
 
   navHeight: 100,

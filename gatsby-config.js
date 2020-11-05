@@ -17,7 +17,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'EmersonLopes',
-        short_name: 'lupuselit',
+        short_name: 'emersonlopxs',
         start_url: '/',
         background_color: config.darkNavyColor,
         theme_color: config.navyColor,
