@@ -2,7 +2,6 @@
 date: '2019-02-01'
 title: 'Kloudlearn'
 cover: './kloudlearn.png'
-# github: 'https://github.com/bchiang7/spotify-profile'
 external: 'https://kloudlearn.com/index.html'
 tech:
   - React.js

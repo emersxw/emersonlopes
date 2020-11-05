@@ -6,8 +6,6 @@ import {
   IconCodepen,
   IconInstagram,
   IconTwitter,
-  IconStar,
-  IconFork,
 } from '@components/icons';
 import { socialMedia } from '@config';
 import styled from 'styled-components';
@@ -51,23 +49,23 @@ const Copy = styled.div`
 const GithubLink = styled.a`
   color: ${colors.slate};
 `;
-const GithubInfo = styled.div`
-  margin-top: 10px;
+// const GithubInfo = styled.div`
+//   margin-top: 10px;
 
-  & > span {
-    display: inline-flex;
-    align-items: center;
-    margin: 0 7px;
-  }
-  svg {
-    display: inline-block;
-    height: 15px;
-    width: auto;
-    margin-right: 5px;
-  }
-`;
+//   & > span {
+//     display: inline-flex;
+//     align-items: center;
+//     margin: 0 7px;
+//   }
+//   svg {
+//     display: inline-block;
+//     height: 15px;
+//     width: auto;
+//     margin-right: 5px;
+//   }
+// `;
 
-const Footer = ({ githubInfo }) => (
+const Footer = () => (
   <FooterContainer>
     <SocialContainer>
       <SocialItemList>

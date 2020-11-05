@@ -2,8 +2,7 @@
 date: '10'
 title: 'Fitwave'
 cover: './fit.png'
-# github: 'https://github.com/bchiang7/spotify-profile'
-# external: 'https://open-eth.web.app/'
+external: ''
 tech:
   - React
   - React Vis

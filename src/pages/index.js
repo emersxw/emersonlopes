@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import { Layout, Hero, About, Jobs, Featured, Projects, Contact, Blog, Youtube } from '@components';
+import { Layout, Hero, About, Jobs, Featured, Contact, Blog, Youtube } from '@components';
 import styled from 'styled-components';
 import { mixins, Main } from '@styles';
 
@@ -99,25 +99,6 @@ export const pageQuery = graphql`
               }
             }
             tech
-            github
-            external
-            show
-          }
-          html
-        }
-      }
-    }
-    projects: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/projects/" } }
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      edges {
-        node {
-          frontmatter {
-            title
-            image
-            tech
-            github
             external
             show
           }

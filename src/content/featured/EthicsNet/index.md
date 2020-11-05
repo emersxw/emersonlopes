@@ -2,7 +2,6 @@
 date: '2018-12-01'
 title: 'EthicsNet Legacy Dataset'
 cover: './openeth.png'
-# github: 'https://github.com/bchiang7/spotify-profile'
 external: 'https://legacy.ethicsnet.org/'
 tech:
   - React
